@@ -38,6 +38,13 @@ var Convert = (function() {
         },
         {
             format: {
+                big: [0xD835, 0xDD38],
+                small: [0xD835, 0xDD52]
+            },
+            key: "Double Struck"
+        },
+        {
+            format: {
                 big: [0x0000, 0xFF21],
                 small: [0x0000, 0xFF41],
             },
@@ -56,6 +63,41 @@ var Convert = (function() {
                 small: [0xD835, 0xDC1A]
             },
             key: "bold"
+        },
+        {
+            format: {
+                big: [0xD83C, 0xDD10],
+                small: [0xD83C, 0xDD10]
+            },
+            key: "parenthesized"
+        },
+        {
+            format: {
+                big: [0xD83C, 0xDD30],
+                small: [0xD83C, 0xDD30]
+            },
+            key: "Squared"
+        },
+        {
+            format: {
+                big: [0xD83C, 0xDD50],
+                small: [0xD83C, 0xDD50]
+            },
+            key: "Negative Circled"
+        },
+        {
+            format: {
+                big: [0xD83C, 0xDD70],
+                small: [0xD83C, 0xDD70]
+            },
+            key: "Negative Squared"
+        },
+        {
+            format: {
+                big: [0xD83C, 0xDDE6],
+                small: [0xD83C, 0xDDE6]
+            },
+            key: "Regional Indicator"
         }
     ];
 
